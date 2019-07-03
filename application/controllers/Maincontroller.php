@@ -2,7 +2,6 @@
 	
 	class Maincontroller extends CI_Controller {
 		public function index() {
-
 			$data['title']					= "Main Page | ";
 			$data['content'] 				= "orderform";
 			$data['headscript']['js'][]   	= base_url()."js/entities.procs.js";
